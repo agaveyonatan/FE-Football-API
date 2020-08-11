@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Application For Viewing Football Classement">
+        <meta name="keywords" content="football, champions league, premier league, Série A, la liga, bola, ball, classement, klasemen,  standings, sepak bola, peringkat">
+        <meta name="author" content="Agave Yonatan">
+
+        <title>Putbol</title>
+        <link rel="shortcut icon" href="assets/favicon-default-browser.png">
+        <link rel="icon" type="image/png" href="assets/favicon.png">
+        <link rel="apple-touch-icon" href="assets/favicon-ios-mobile.png">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="navigation-wrap bg-light start-header start-style">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <nav class="navbar navbar-expand-md navbar-light">
+                                <div data-aos="slide-left" data-aos-duration="1500">
+                                    <h3 class="nav-brand" href="#">PUTBOL</h3>
+                                </div>
+                                
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" data-aos="slide-down" data-aos-duration="1500">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent" data-aos="slide-down" data-aos-duration="1500">
+                                    <ul class="navbar-nav ml-auto py-4 py-md-0">
+                                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                            <a class="nav-link" href="#" id="CL">Champions League</a>
+                                        </li>
+                                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                            <a class="nav-link" href="#" id="PL">Premier League</a>
+                                        </li>
+                                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                            <a class="nav-link" href="#" id="SA">Série A</a>
+                                        </li>
+                                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                            <a class="nav-link" href="#" id="PD">Primera Division</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>		
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <div class="container" id="content">
+                <div id="preload" class="row"></div>
+                <div id="league" class="row"></div>
+                <div id="area" class="row"></div>
+            </div>
+        </main>
+
+        <footer>
+            © 2020 Developed By Agave Yonatan. All Rights Reserved
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>
